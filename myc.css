@@ -1,0 +1,353 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Para controlor el movimiento segun donde quiera del nav, #(y el id de donde quiera ir) */
+:root
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+    background: chocolate;
+}
+header
+{
+    width: 100%;
+    height: 900px;
+    background-image: linear-gradient(120deg, hsla(46, 89%, 68%, 0.561) 0%, hsla(13, 97%, 76%, 0.568) 100%),url(img/fond.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.nav
+{
+    position: fixed;
+    display: flex;
+    background: #050505de;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+nav a
+{
+    margin: 50px;
+    text-decoration: none;
+    color: #ccc;
+}
+.nav a:hover
+{
+    color: #fff;
+    text-decoration: underline;
+}
+.cabeza
+{
+    padding: 50px 0;
+}
+.wave
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+}
+.titulo
+{
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.titulo h1
+{
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.titulo h2
+{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 300;
+}
+.galery-movi
+{
+    margin-top: 20px;
+    width: 80%;
+}
+.galeria-port
+{
+   
+    animation: fondos 8s infinite ease;
+}
+.pri-img
+{
+    width:90%;
+    margin-top: 40px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .9);
+    transform: scale(0);
+    margin-bottom: 30px;
+}
+.pri-img > img
+{
+    transform: scale(0);
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+    justify-content: center;
+    
+}
+.cam
+{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*
+@keyframes fondos
+{
+    0%
+    {
+        background-image: url(img/ima1.jpg);
+        width: 75%;
+        height: 100%;
+    }
+    35%
+    {
+        background-image: url(img/ima2.jpg);
+        width: 75%;
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    65%
+    {
+        background-image: url(img/ima3.jpg);
+        width: 70%;
+        height: 100%;
+    }
+    100%
+    {
+        background-image: url(img/ima4.jpg);
+        width: 75%;
+        height: 100%;
+    }
+}
+*/
+.sub-titulo
+{
+    font-size: 40px;
+    color: #ccc;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.principal
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+.galery
+{
+    width: 40%;
+    margin-bottom: 40px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .9);
+}
+.galer
+{
+    width: 40%;
+    margin-bottom: 40px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .9);
+}
+.contenedor{
+    width: 46%;
+    position: relative;
+    top: -20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.contenedor p
+{
+    padding: 0 0 30px 15px;
+    font-weight: 500;
+    text-align: left;
+}
+footer
+{
+    background:linear-gradient( #f3ce52b6,#fda08691);
+    padding-bottom: 0.1px;
+}
+.contenedor-footer-contacto
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.contenedor-footer-contactox
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: -30px;
+    padding-bottom: 50px;
+}
+.contacto-us
+{
+    width: 40%;
+    color: #fff;
+}
+.brand
+{
+    font-weight: 500;
+    font-size: 40px;
+}
+.brand+p{
+    font-weight: 500;
+}
+.social-media
+{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.icon
+{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.icon:hover
+{
+    background: #fff;
+    color: #d18329f6;
+}
+.icon i
+{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line
+{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+}
+@media screen and (max-width: 800px)
+{
+    header
+    {
+        height: 700px;
+    }
+    .galery-movi
+    {
+        width: 85%;
+        margin-top: 50px;
+    }
+    nav a
+    {
+        margin: 30px;
+    }
+    .titulo h1
+    {
+        font-size: 37px;
+    }
+    .titulo h2
+    {
+        font-size: 22px;
+    }
+    .sub-titulo
+    {
+        font-size: 32px;
+    }
+    .galery
+    {
+        width: 47%;
+    }
+    .contenedor 
+    {
+        width: 43%;
+        top: -35px;
+    }
+    .contenedor p
+    {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    .contacto-us
+    {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .social-media
+    {
+        width: 90%;
+        justify-content: space-evenly;
+    }
+    .social-media-icon
+    {
+        margin-left: 0;
+    }
+    .social-media i
+    {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 450px)
+{
+    header
+    {
+        height: 650px;
+    }
+    .galery-movi
+    {
+        width: 90%;
+    }
+    nav a
+    {
+        margin: 20px;
+    }
+    .sub-titulo
+    {
+        font-size: 30px;
+    }
+    .galery
+    {
+        width: 40%;
+    }
+}

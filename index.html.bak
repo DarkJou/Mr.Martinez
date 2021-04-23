@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="author" content="DarkJou, Johan Smith">
+        <meta name="description" content="AGREGAR!!!!">
+        <meta name="keywords" content="cafe, café, miel, cafe y miel, cafe & miel, productos">
+        <title>Miel & Café</title>
+        <link rel="stylesheet" type="text/css" href="myc.css">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="shorcut icon" href="img/icono.ico">
+    </head>
+    
+    <body>
+        <section>
+                <header>
+                    <div class="nav">
+                        <nav>
+                            <ul>
+                                <a href="#inicio">Inicio</a>
+                                <a href="#miel">Miel</a>
+                                <a href="#cafe">Café</a>
+                                <a href="#contacto">Contacto</a>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="cabeza" id="inicio">
+                        <div class="titulo">
+                            <h1>Miel & Café 100% Natural</h1>
+                            <h2>Con nuestro productos naturales ten siempre buenos días.</h2>
+                            <div  class="wave" tyle="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C222.63,187.98 279.06,40.95 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: chocolate;"></path></svg></div>
+                        </div>
+                        <center>
+                        
+                        </center>
+                    </div>
+                </header>
+        </section>
+        <main>
+            <h2 class="sub-titulo" id="miel">Producción de la Miel</h2>
+            <div class="principal">
+                
+                <img src="img/miel1.jpg" alt="" class="galery">
+                <div class="contenedor">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Accusantium repellendus, ad earum exercitationem cum numquam
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, fuga.
+                    </p>
+                </div>
+                <div class="contenedor">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Accusantium repellendus, ad earum exercitationem cum numquam
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, fuga.
+                    </p>
+                </div>
+                <img src="img/miel2.jpg" alt=""class="galery">
+
+                <video width="550" height="315" src="img/vid1.mp4" autoplay muted loop></video>
+                <div class="contenedor">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Accusantium repellendus, ad earum exercitationem cum numquam
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, fuga.
+                    </p>
+                </div>
+            </div>
+            <h2 class="sub-titulo" id="cafe">Producción del Café</h2>
+            <div class="principal">
+                
+                <img src="img/cafe1.jpg" alt="" class="galery">
+                <div class="contenedor">                  
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Accusantium repellendus, ad earum exercitationem cum numquam
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, fuga.
+                    </p>
+                </div>
+                <div class="contenedor">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Accusantium repellendus, ad earum exercitationem cum numquam
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, fuga.
+                    </p>                   
+                </div>
+                <img src="img/cafe2.jpg" alt="" class="galery">
+
+                <img src="img/ima2.jpg" alt="" class="galery">
+                <div class="contenedor">                  
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Accusantium repellendus, ad earum exercitationem cum numquam
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, fuga.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer id="contacto">
+            <div class="contenedor-footer-contacto">
+                <div class="contacto-us">
+                    <h2 class="brand">&copy; DarkjouDesing</h2>
+                    <p>Somos expertos en la creacion de tus sueños.</p>
+                </div>
+                <div class="social-media">
+                    <a href="./" class="icon">
+                        <i class='bx bxl-facebook bx-flashing'style='color:#0146ff'  ></i>
+                    </a>
+                    <a href="./" class="icon">
+                        <i class='bx bxl-whatsapp bx-flashing' style='color:#05ee50'  ></i>
+                    </a>
+                    <a href="./" class="icon">
+                        <i class='bx bxl-instagram bx-flashing' style='color:#da4c28'  ></i>
+                    </a>
+                </div>
+            </div>
+            <div class="line"></div>
+        </footer>
+    </body>
+</html>
